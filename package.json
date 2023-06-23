@@ -1,14 +1,21 @@
 {
   "name": "js-dijkstra",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "test": "tsc|jasmine"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test",
+  "author": "dio_lantief21@outlook.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^4.3.4",
+    "jasmine": "^5.0.2",
+    "nyc": "^6.6.1",
+    "ts-node": "^10.9.1",
     "typescript": "^5.1.3"
   }
 }
