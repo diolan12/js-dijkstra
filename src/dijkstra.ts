@@ -18,13 +18,13 @@ export class Dijkstra {
 	/**
      * Add an edge between two vertices with a given weight.
      *
-     * @param string $src The source vertex.
-     * @param string $dest The destination vertex.
-     * @param int $weight The weight or cost of the edge.
+     * @param string src The source vertex.
+     * @param string dest The destination vertex.
+     * @param int weight The weight or cost of the edge.
      * @return \Diolan12\Dijkstra
      */
 	addVertex(node: string, n: Array<Vertex>): Dijkstra {
-		"asd"
+		// code
 		return this
 	}
 
@@ -37,8 +37,7 @@ export class Dijkstra {
 	 * @return void
 	 */
 	addEdge(source: string, destination: string, weight: number): Dijkstra {
-		"asdasd"
-		// this.vertices[source][destination] = weight
+		// code
 		return this
 	}
 
