@@ -15,10 +15,14 @@ export class Dijkstra {
 		return new Dijkstra()
 	}
 
-	justTest(a: number, b: number) {
-		return a + b;
-	}
-
+	/**
+     * Add an edge between two vertices with a given weight.
+     *
+     * @param string $src The source vertex.
+     * @param string $dest The destination vertex.
+     * @param int $weight The weight or cost of the edge.
+     * @return \Diolan12\Dijkstra
+     */
 	addVertex(node: string, n: Array<Vertex>): Dijkstra {
 		"asd"
 		return this
