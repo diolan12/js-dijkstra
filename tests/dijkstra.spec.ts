@@ -2,7 +2,7 @@ import { Dijkstra } from "../src/dijkstra";
 import { Graph } from "../src/graph";
 
 
-describe("testShoertestPath", () => {
+describe("testShortestPath", () => {
     const graph: Graph = {
         A: { B: 3, C: 5, D: 9 },
         B: { A: 3, C: 3, D: 4, E: 7 },
@@ -20,13 +20,13 @@ describe("testShoertestPath", () => {
     let path = dijkstra.findShortestPath('A', 'D')
 
 
-    it("should be A", () => {
+    it("Array index 0 should be A", () => {
         expect(path[0]).toBe('A')
     })
-    it("should be C", () => {
+    it("Array index 1 should be C", () => {
         expect(path[1]).toBe('C')
     })
-    it("should be D", () => {
+    it("Array index 2 should be D", () => {
         expect(path[2]).toBe('D')
     })
 })
