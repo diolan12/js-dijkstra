@@ -14,7 +14,7 @@
 ## Installation
 
 ```cli
-npm install diolan12/js-dijkstra
+npm i js-dijkstra
 ```
 
 ## Usage
