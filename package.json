@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "tsc|jasmine"
+    "watch": "tsc --build --watch",
+    "test": "tsc --build && jasmine"
   },
   "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test",
   "author": "dio_lantief21@outlook.com",
