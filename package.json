@@ -1,7 +1,7 @@
 {
   "name": "js-dijkstra",
   "version": "0.1.0",
-  "description": "",
+  "description": "A simple JS implementation for Dijkstra's algorithm",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
